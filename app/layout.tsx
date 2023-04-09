@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <label tabIndex={0} className="btn btn-ghost">
                   <Image src="/language.svg" alt="language" width={28} height={28} />
                 </label>
-                <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabIndex={0} className="dropdown-content bg-[#153c55] text-white menu p-2 shadow  rounded-box w-52">
                   <li>
                     <a>
                       {" "}
@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <label tabIndex={1} className="">
                   <Image src="burger.svg" alt="burger" width={23} height={23} />
                 </label>
-                <ul tabIndex={1} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabIndex={1} className="dropdown-content bg-[#153c55] text-white menu p-2 shadow rounded-box w-52">
                   <li className="mx-8 roboto-serif text-xl hover:text-white/60">
                     <a href="#">Home</a>{" "}
                   </li>
@@ -75,10 +75,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <label tabIndex={0} className="btn btn-ghost">
                     <Image src="/language.svg" alt="language" width={28} height={28} />
                   </label>
-                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-[#153c55] text-white rounded-box w-52">
                     <li>
                       <a>
-                        {" "}
                         <Image src="/gb.svg" alt="gb" width={20} height={20} /> English
                       </a>
                     </li>
