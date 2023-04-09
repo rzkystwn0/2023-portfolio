@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className=" text-white container mx-auto sm:px-12 px-6 sm:pt-10 pt-4">
           <div className="flex items-center justify-between">
             <p className="roboto-serif font-bold text-2xl tracking-wide">
-              <a href="/"> vincent.</a>
+              <a href="/"> &#60;&#62;vnct.&#60;/&#62;</a>
             </p>
 
             <div className="flex items-center">
