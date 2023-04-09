@@ -75,7 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <label tabIndex={0} className="btn btn-ghost">
                     <Image src="/language.svg" alt="language" width={28} height={28} />
                   </label>
-                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-[#153c55] text-white rounded-box w-52">
+                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-[#0fbf32] text-white rounded-box w-52">
                     <li>
                       <a>
                         <Image src="/gb.svg" alt="gb" width={20} height={20} /> English
